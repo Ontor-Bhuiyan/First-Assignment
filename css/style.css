@@ -102,3 +102,44 @@ nav .nav-title{
 .action-image .image-action{
     border-radius: 50px;
 }
+
+/* productive styles */
+.productive-sec{
+    margin: 0 232px 116px;
+}
+
+.productive-content{
+    height: 306px;
+    border-radius: 25px;
+    background: rgba(78, 71, 255, 10%);
+}
+.productive-content .productive-title{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 0 40px;
+    font-family: 'Railway', sans-serif;
+}
+
+.productive-users{
+    display: flex;
+    margin: 0 142px;
+    text-align: center;
+    justify-content: center;
+}
+
+.focus-sessions{
+    margin: 0 190px;
+}
+.active-user, .focus-user, .Satisfaction-user{
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.active-user-title, .focus-user-title, .Satisfaction-user-title{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
