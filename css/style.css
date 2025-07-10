@@ -34,6 +34,7 @@ ul li{
 header{
     width: 100%;
     height: 700px;
+    margin-bottom: 116px;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../images/banner-background.png');
@@ -66,4 +67,38 @@ nav .nav-title{
     text-align: center;
     margin-bottom: 35px;
     font-family: 'Railway', sans-serif;
+}
+
+/* action styles */
+.action-sec{
+    margin: 0 232px 116px;
+}
+
+.action-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.action-details .action-title{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+    font-family: 'Railway', sans-serif;
+}
+.action-details .action-description{
+    font-size: 24px;
+    padding: 23px 0;
+    font-weight: 500;
+    color: #8987A1;
+    line-height: 1.6;
+    font-family: 'Railway', sans-serif;
+}
+
+.action-image .image-action{
+    border-radius: 50px;
 }
