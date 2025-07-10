@@ -1,6 +1,33 @@
+/* common styles */
 *{
     margin: 0px;
     padding: 0px;
+}
+
+ul li{
+    list-style: none;
+}
+.btn-primary{
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 15px 36px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #4E47FF;
+    font-family: 'Railway', sans-serif;
+}
+
+@font-face {
+    font-family: 'Railway', sans-serif;
+    src: url('../fonts/railway/Railway.otf');
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('../fonts/inter/Inter-Black.otf');
 }
 
 /* header styles */
@@ -16,4 +43,27 @@ nav{
     display: flex;
     margin: 50px 232px;
     justify-content: space-between;
+}
+nav .nav-title{
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+}
+
+/* banner styles */
+.banner-content{
+    height: 602px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.banner-content .banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 35px;
+    font-family: 'Railway', sans-serif;
 }
