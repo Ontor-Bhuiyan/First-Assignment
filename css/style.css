@@ -2,3 +2,18 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* header styles */
+header{
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/banner-background.png');
+}
+
+nav{
+    display: flex;
+    margin: 50px 232px;
+    justify-content: space-between;
+}
