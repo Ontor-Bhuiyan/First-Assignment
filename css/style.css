@@ -358,3 +358,37 @@ textarea{
     color: #8987A1;
     font-family: 'Inter', sans-serif;
 }
+
+/* more-details styles */
+.more-details-sec{
+    margin: 116px 385px;
+    max-width: 1140px;
+    text-align: center;
+}
+
+.more-details-content a button{
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 20px 0;
+    padding: 15px 36px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #4E47FF;
+    transition: all linear 0.4s;
+    font-family: 'Railway', sans-serif;
+}
+.more-details-content a:hover button{
+    color: #000;
+    background: #d9d90ead;
+    transition: all linear 0.4s;
+}
+
+.more-details-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Railway', sans-serif;
+}
