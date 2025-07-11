@@ -4,6 +4,14 @@
     padding: 0px;
 }
 
+body{
+    background: #F5F8FF;
+}
+
+footer{
+    background: #FFFFFF;
+}
+
 ul li{
     list-style: none;
 }
@@ -37,12 +45,14 @@ header{
     margin-bottom: 116px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/banner-background.png');
+    background-image: url(../images/banner-background.png);
 }
 
 nav{
     display: flex;
-    margin: 50px 232px;
+    margin: 0 385px;
+    max-width: 1140px;
+    padding: 50px 0 0;
     justify-content: space-between;
 }
 nav .nav-title{
@@ -56,6 +66,8 @@ nav .nav-title{
 .banner-content{
     height: 602px;
     display: flex;
+    margin: 0 385px;
+    max-width: 1140px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -71,7 +83,8 @@ nav .nav-title{
 
 /* action styles */
 .action-sec{
-    margin: 0 232px 116px;
+    max-width: 1140px;
+    margin: 0 385px 116px;
 }
 
 .action-content{
@@ -105,7 +118,8 @@ nav .nav-title{
 
 /* productive styles */
 .productive-sec{
-    margin: 0 232px 116px;
+    max-width: 1140px;
+    margin: 0 385px 135px;
 }
 
 .productive-content{
@@ -142,4 +156,159 @@ nav .nav-title{
     color: #757575;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
+}
+
+/* users-say styles */
+.users-say-sec{
+    max-width: 1140px;
+    margin: 0 385px 116px;
+}
+
+.users-say-title{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Railway', sans-serif;
+}
+
+.users-says{
+    display: flex;
+    justify-content: space-between;
+}
+
+.users-feedback{
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+}
+.users-feedback .users-sub-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 24px 0 8px;
+    font-family: 'Railway', sans-serif;
+}
+.users-feedback .users-description{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 24px;
+    font-family: 'Railway', sans-serif;
+}
+
+.users-reviewer{
+    display: flex;
+    align-items: center;
+}
+.reviewer-image .image-reviewer{
+    border-radius: 50%;
+}
+
+.reviewer-details{
+    margin-left: 12px;
+}
+.reviewer-details .details-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #8987A1;
+    font-family: 'Railway', sans-serif;
+}
+.reviewer-details .details-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+    font-family: 'Railway', sans-serif;
+}
+
+/* focus styles */
+.focus-sec{
+    max-width: 1140px;
+    margin: 0 385px 70px;
+}
+
+.focus-content{
+    text-align: center;
+}
+.focus-content .focus-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Railway', sans-serif;
+}
+.focus-content .focus-sub-title{
+    font-size: 16px;
+    color: #8987A1;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Railway', sans-serif;
+}
+.focus-content .focus-image{
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+/* touch styles */
+.touch-sec{
+    max-width: 1140px;
+    margin: 90px 385px 0;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.touch-content{
+    height: 632px;
+    display: flex;
+}
+
+.touch-heading{
+    height: 632px;
+    display: flex;
+    align-items: center;
+}
+.touch-heading .touch-title{
+    font-size: 95px;
+    font-weight: 700;
+    font-family: 'Railway', sans-serif;
+}
+
+.touch-form{
+    width: 620px;
+    display: flex;
+    height: 632px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+input{
+    height: 60px;
+    width: 450px;
+    font-size: 20px;
+    padding: 0 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+    font-family: 'Inter', sans-serif;
+}
+
+textarea{
+    width: 450px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px 20px 0;
+    border: 1px solid #f1f1f1;
+    font-family: 'Inter', sans-serif;
+}
+
+#btn-primary{
+    width: 492px;
 }
