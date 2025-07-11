@@ -4,12 +4,13 @@
     padding: 0px;
 }
 
-body{
+header{
     background: #F5F8FF;
 }
 
-footer{
-    background: #FFFFFF;
+main{
+    background: #F5F8FF;
+    border-bottom: 2px solid #f1f1f1;
 }
 
 ul li{
@@ -183,8 +184,9 @@ nav .nav-title{
 }
 
 .users-feedback{
-    padding: 25px;
+    padding: 30px;
     border-radius: 10px;
+    background: #ffffff;
     border: 1px solid #f1f1f1;
 }
 .users-feedback .users-sub-title{
@@ -232,7 +234,10 @@ nav .nav-title{
 }
 
 .focus-content{
+    padding: 70px 0;
     text-align: center;
+    border-radius: 20px;
+    background: #ffffff;
 }
 .focus-content .focus-title{
     font-size: 50px;
@@ -248,9 +253,9 @@ nav .nav-title{
     font-family: 'Railway', sans-serif;
 }
 .focus-content .focus-image{
-    width: 100%;
+    width: 80%;
     display: block;
-    margin-top: 20px;
+    margin: 20px auto 0;
     border-radius: 50px;
 }
 
